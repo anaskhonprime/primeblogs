@@ -28,6 +28,17 @@ hr {
     border: 0;
 }
 
+.img {
+    border-radius: 10px;
+    width: 85%;
+    margin: 30px 0;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+}
+
+.free-space {
+    margin: 100px 0;
+}
+
 .svg-arrow {
     width: 20px;
     height: 20px;
@@ -145,12 +156,6 @@ nav {
         margin: 10px 20px 10px 0;
         border-radius: 5px;
         box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-        img {
-            width: 200px;
-            height: 150px;
-            object-fit: cover;
-            border-radius: 5px;
-        }
         .text {
             display: flex;
             flex-direction: row;
@@ -168,14 +173,26 @@ nav {
 .main-text {
     display: flex;
     width: 80%;
-    .text-container {
-        margin: 15px 0;
-        p {
-            padding: 2% 0;
-            line-height: 35px;
-            font-weight: 500;
-            font-size: 16px;
-            color: #25265eb3;
+    .intro {
+        .img-center {
+            text-align: center;
+            width: 100%;
         }
+    }
+    .text-container {
+        margin: 20px 0;
+        p {
+            padding: 3% 4%;
+            box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;
+            line-height: 35px;
+            font-weight: 400;
+            font-size: 16px;
+            border-radius: 10px;
+            color: rgba(29, 30, 76, 0.87);
+            background-color: #f6f6f6;
+        }
+    }
+    hr {
+        margin: 22px 0;
     }
 }
