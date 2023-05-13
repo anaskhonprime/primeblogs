@@ -1,9 +1,8 @@
-
-
 import './globals.css'
 import './app.scss'
-import Link from 'next/link'
+import "highlight.js/styles/github-dark.css";
 
+import Link from 'next/link'
 import Sidebar from './components/Sidebar'
 
 export const metadata = {
@@ -36,7 +35,7 @@ export default function RootLayout({
         </nav>
         <main className='page-content'>
           <div className='left-bar'>
-          <Sidebar/>
+            <Sidebar />
           </div>
           <div className='main-bar'>
             {children}

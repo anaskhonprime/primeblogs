@@ -13,9 +13,6 @@ $border-bg:#fbfbfb;
 * {
     margin: 0;
     padding: 0;
-    color: $text;
-    background-color: $bg;
-    font-family: 'Noto Sans KR', sans-serif;
     &::-webkit-scrollbar {
         display: none;
         /* Safari and Chrome */
@@ -51,6 +48,7 @@ hr {
 
 nav {
     color: $text;
+    font-family: 'Noto Sans KR', sans-serif;
     box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
     .nav-items {
         display: flex;
@@ -75,6 +73,9 @@ nav {
 }
 
 .page-content {
+    color: $text;
+    background-color: $bg;
+    font-family: 'Noto Sans KR', sans-serif;
     display: flex;
     margin: 20px 0;
     padding: 2%;
@@ -194,5 +195,27 @@ nav {
     }
     hr {
         margin: 22px 0;
+    }
+}
+
+.editor {
+    padding: 16px 24px;
+    border-radius: 5px;
+    border: 1px solid $border;
+    border-left: 4px solid #d3dce6bb;
+    margin-top: 24px;
+    margin-bottom: 40px;
+    background: #f4f7ff;
+    pre {
+        padding: 16px;
+        background-color: #383b40;
+        color: $bg;
+        border-radius: 2px;
+        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+        .code {
+            font-size: 16px;
+            background-color: #383b40;
+            line-height: 20px;
+        }
     }
 }
