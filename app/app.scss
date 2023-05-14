@@ -100,6 +100,7 @@ nav {
             justify-content: space-between;
             button {
                 border: none;
+                background-color: transparent;
                 transform: rotate(90deg);
             }
             &::-webkit-scrollbar {
@@ -203,19 +204,19 @@ nav {
     border-radius: 5px;
     border: 1px solid $border;
     border-left: 4px solid #d3dce6bb;
-    margin-top: 24px;
+    margin-top: 15px;
     margin-bottom: 40px;
     background: #f4f7ff;
     pre {
         padding: 16px;
-        background-color: #383b40;
-        color: $bg;
-        border-radius: 2px;
+        background-color: #333;
+        border-radius: 5px;
         box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
         .code {
             font-size: 16px;
-            background-color: #383b40;
-            line-height: 20px;
+            background-color: #333;
+            line-height: 22px;
+            color: #fff;
         }
     }
 }

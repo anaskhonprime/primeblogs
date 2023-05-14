@@ -55,7 +55,6 @@ console.log(a);`;
 }`
 
     return (
-
       <>
         <div className="main-text">
           <div className="intro">

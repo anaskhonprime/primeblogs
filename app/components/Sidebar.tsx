@@ -5,7 +5,7 @@ import Link from 'next/link';
 import { SvgArrow, SvgList } from '../items/svg'
 
 export default function Sidebar() {
-
+   
     const [openMenu, setOpenMenu] = useState<boolean>(true);
     const [openMenu2, setOpenMenu2] = useState<boolean>(false);
     const [openMenu3, setOpenMenu3] = useState<boolean>(false);
@@ -33,10 +33,6 @@ export default function Sidebar() {
         setOpenMenu5(!openMenu5);
     };
 
-
-
-
-
     return (
         <div className='side-bar'>
             <div>
@@ -48,6 +44,8 @@ export default function Sidebar() {
                         </button>
                     </div>
                 </div>
+                
+                
                 {openMenu ? (<hr />) : null}
                 {openMenu ? (
                     <div className="items-div">
