@@ -101,7 +101,6 @@ nav {
             button {
                 border: none;
                 background-color: transparent;
-                transform: rotate(90deg);
             }
             &::-webkit-scrollbar {
                 display: none;
@@ -196,6 +195,13 @@ nav {
     }
     hr {
         margin: 22px 0;
+    }
+    span {
+        margin-right: 7px;
+    }
+    .title {
+        text-decoration: none;
+        color: rgba(29, 30, 76, 0.87);
     }
 }
 

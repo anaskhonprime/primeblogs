@@ -6,8 +6,8 @@ import "highlight.js/styles/github-dark.css";
 import hljs from "highlight.js";
 
 import Image from 'next/image';
-import { headers, content1, content2, content3, content4, content5 } from "./data/data";
-import { Img1, Img2, Img3, Img4, Img5, Img6, Img7 } from './images/assets';
+import { headers, content1, content2, content3, content4, content5 } from "./assets/data/data";
+import { Img1, Img2, Img3, Img4, Img5, Img6, Img7 } from './assets/images/assets';
 
 import HighlightCode from "./components/Highlights";
 

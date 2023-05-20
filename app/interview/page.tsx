@@ -1,10 +1,10 @@
-export default function Cart() {
+export default function Mypage() {
 
 
     return (
         <div className="main-body">
             <div className="items">
-                <h1>Cart Page</h1>
+                <h1>Interview Page</h1>
             </div>
         </div>
 

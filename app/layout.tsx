@@ -1,5 +1,5 @@
-import './globals.css'
-import './app.scss'
+import './styles/globals.css'
+import './styles/app.scss'
 import "highlight.js/styles/github-dark.css";
 
 import Link from 'next/link'
